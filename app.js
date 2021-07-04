@@ -12,6 +12,10 @@ async function getMovies(url) {
   const data = await res.json();
   showMovies(data.results);
 }
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
 
 function showMovies(movies) {
   main.innerHTML = "";

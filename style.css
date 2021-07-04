@@ -18,6 +18,7 @@ header {
   justify-content: flex-end;
   background-color: var(--secondary-color);
 }
+
 .search {
   background-color: transparent;
   border: 2px solid var(--primary-color);
@@ -98,4 +99,27 @@ main {
 }
 .movie:hover .overview {
   transform: translateY(0);
+}
+header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+header.sticky + .content {
+  padding-top: 102px;
+  z-index: 999;
+}
+
+header a {
+  float: left;
+  position: relative;
+  right: 900px;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
 }
