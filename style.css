@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  --primary-color: #d48abc;
+  --secondary-color: #bd73a4;
 }
 body {
   background-color: var(--primary-color);
@@ -122,4 +122,21 @@ header a {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  header a {
+    right: 450px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header a {
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header a {
+    right: 120px;
+  }
 }
