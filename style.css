@@ -137,6 +137,12 @@ header a {
 
 @media screen and (max-width: 768px) {
   header a {
-    right: 120px;
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header a {
+    right: 0px;
   }
 }
