@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #d48abc;
-  --secondary-color: #bd73a4;
+  --primary-color: #ce9cbe;
+  --secondary-color: #ce8eb9;
 }
 body {
   background-color: var(--primary-color);
@@ -117,7 +117,7 @@ header a {
   right: 900px;
   background-color: transparent;
   border: 2px solid var(--primary-color);
-  border-radius: 50px;
+  border-radius: 40px;
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -126,7 +126,7 @@ header a {
 
 @media screen and (max-width: 1200px) {
   header a {
-    right: 450px;
+    right: 400px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -137,12 +137,12 @@ header a {
 
 @media screen and (max-width: 768px) {
   header a {
-    right: 300px;
+    right: 100px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 484px) {
   header a {
-    right: 0px;
+    right: 50px;
   }
 }
